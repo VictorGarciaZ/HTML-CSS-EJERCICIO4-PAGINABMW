@@ -1,0 +1,99 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    font-family: Calibri;
+}
+
+header {
+    background-image: url('https://www.autoscout24.es/assets/auto/images/model/bmw/bmw-m3/bmw-m3-l-04.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+
+}
+
+.navbar_item {
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+.navbar_item2 {
+    justify-content: flex-end;
+    padding: 15px;
+
+}
+
+.navlogo {
+    height: 40px;
+}
+
+.navlogo2 {
+    height: 90px;
+}
+
+.hr {
+    align-items: center;
+    width: 93%;
+}
+
+.text {
+    margin-top: 25%;
+}
+
+.button {
+    width: 240px;
+    height: 40px;
+    background-color: blue;
+}
+
+.model {
+    color: black;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.price {
+    color: gray;
+}
+
+.texts {
+    color: black;
+}
+
+.container1 {
+    background-color: white;
+    border-color: black;
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.images {
+    width: 200px;
+    height: 150px;
+}
